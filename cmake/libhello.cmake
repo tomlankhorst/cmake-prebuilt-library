@@ -1,4 +1,4 @@
-set(LIBHELLO_VERSION v0.1)
+set(LIBHELLO_VERSION v1.0)
 set(LIBHELLO_URL https://github.com/tomlankhorst/cmake-prebuilt-library/releases/download/${LIBHELLO_VERSION}/libhello.a)
 set(LIBHELLO_PATH ${CMAKE_BINARY_DIR}/import/libhello.a)
 
