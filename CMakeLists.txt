@@ -1,10 +1,9 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.10)
 project(cmake_prebuilt_library)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(hello src/libhello/hello.cpp)
-target_include_directories(hello PUBLIC include/libhello)
+include(cmake/libhello.cmake)
 
 add_executable(cmake_prebuilt_library main.cpp)
 
